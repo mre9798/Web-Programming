@@ -1,0 +1,43 @@
+<!--
+Prepare a registration form to fill the following data for taking admission for any of the courses offered.
+	[use  checkbox,Radio button,TextArea...]
+Personal Information - Name ,Gender, DOB, Address, Phone , Guardian, Hobbies and extra curricular activities
+Course Information - BA,B.Sc,BCA
+Office Use .....Provide proper division to increase the aesthetic view
+-->
+
+<html
+<head>
+<title>
+	Registration Page
+</title>
+</head>
+<body>
+<form>
+<center>
+	Name : <input type="text" name="studname" size="25"><br>
+	Gender : <input type="radio" name="Gender" value="male">Male
+		 &nbsp&nbsp<input type="radio" name="Gender" value="female">Female
+		 &nbsp&nbsp<input type="radio" name="Gender" value="other">Other<br>
+	Date of Brith : <input type="date" id="birthday" name="DOB"><br>
+	Address : <textarea cols="50" rows="4" name="address">
+		  </textarea><br>
+	Phone : <input type="text" name="ph" size="15"><br>
+	Guardian : <input type="text" name="guardian" size="25"><br>
+	Hobbies : <textarea cols="50" rows="5" name="hobbies">
+		  </textarea><br>
+	Extra Activites : <textarea cols="50" rows="5" name="activites">
+			  </textarea><br>
+	course : <select id="Course">
+			<option value="BCA">BCA</option>
+		 	<option value="B.Sc">B.Sc</option>
+			<option value="BA">BA</option>
+		 </select><br><br><br>
+		 <u>	Office use	</u><br>
+		   <textarea cols="50" rows="5" name="office">
+		   </textarea><br>
+	<input type="submit" value="submit">
+</center>
+</form>
+</body>
+</html>
